@@ -8,5 +8,38 @@
     <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <h1 class="app-title">Expense Tracker</h1>
+    <div class="add-new-item">Add A New Item</div>
+    <form action="/" get="#" class="form">
+      <div class="name-container">
+        <label for="name" class="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="What was the expense"
+          required
+        />
+      </div>
+      <div class="date-container">
+        <label for="name" class="name">Date:</label>
+        <input
+          type="date"
+          id="date-picker"
+          placeholder="Date of expense"
+          required
+        />
+      </div>
+      <div class="name-container">
+        <label for="amount" class="amount">Amount:</label>
+        <input
+          type="number"
+          id="amount"
+          placeholder="Expense amount"
+          required
+        />
+      </div>
+      <button type="button" class="btnAdd">Add Expense</button>
+    </form>
+  </body>
 </html>
