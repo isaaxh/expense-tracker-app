@@ -1,0 +1,93 @@
+:root {
+    --accent-color: rgb(46, 46, 225);
+    --hover-color: rgb(44, 44, 184);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+}
+
+body {
+    padding: 10px 20%;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.app-title {
+    margin: 50px 0 10px;
+    font-size: 46px;
+}
+
+.add-new-item {
+    color: var(--accent-color);
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+form {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+form * {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 5px 12px;
+}
+
+.name-container {
+    text-align: left;
+    width: 100%;
+    display: flex;
+}
+
+.name-container input {
+    flex: 1;
+}
+
+.date-amount-container {
+    display: flex;
+}
+
+.date-container, .amount-container {
+    margin: 0;
+    text-align: left;
+    padding: 0;
+    flex: 1;
+}
+
+.date-container input {
+    width: 450px;
+}
+
+.date-container label {
+    margin-right: 5px
+}
+
+.amount-container input {
+    width: 438px;
+}
+
+.btn-container button {
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+.btn-container button:hover {
+    background-color: var(--hover-color);
+}
+
+
+
