@@ -1,6 +1,6 @@
 :root {
-    --accent-color: rgb(46, 46, 225);
-    --hover-color: rgb(44, 44, 184);
+    --accent-color: rgb(28, 28, 185);
+    --hover-color: rgb(73, 73, 218);
 }
 
 * {
@@ -33,8 +33,8 @@ body {
     margin-bottom: 25px;
 }
 
+
 form {
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
 }
@@ -83,11 +83,38 @@ form * {
     color: white;
     border-radius: 6px;
     border: none;
+    margin-top: 1rem;
+    box-shadow:0 0 20px rgb(0,0,0,0.15);
+
 }
 
 .btn-container button:hover {
     background-color: var(--hover-color);
 }
 
+.content-table {
+    border-collapse: collapse;
+    height: 5rem;
+    width: 100%;
+    margin: 1.5rem 0;
+    font-size: 0.9rem;
+    box-shadow:0 0 20px rgb(0,0,0,0.15);
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
 
+.content-table thead th {
+    background-color: var(--accent-color);
+    color: white;
+    height: 2rem;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    height: 2rem;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
 
