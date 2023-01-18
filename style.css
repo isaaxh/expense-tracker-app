@@ -23,14 +23,14 @@ body {
 }
 
 .app-title {
-    margin: 50px 0 10px;
-    font-size: 46px;
+    margin: 2rem 0 0.5rem;
+    font-size: 2rem;
 }
 
 .add-new-item {
     color: var(--accent-color);
-    font-size: 30px;
-    margin-bottom: 25px;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -40,8 +40,8 @@ form {
 }
 
 form * {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    margin-bottom: .4rem;
     padding: 5px 12px;
 }
 
@@ -68,6 +68,7 @@ form * {
 
 .date-container input {
     width: 450px;
+    
 }
 
 .date-container label {
@@ -75,7 +76,11 @@ form * {
 }
 
 .amount-container input {
-    width: 438px;
+    width: 435px;
+}
+
+.error-message {
+    color: #db4451;
 }
 
 .btn-container button {
@@ -83,7 +88,6 @@ form * {
     color: white;
     border-radius: 6px;
     border: none;
-    margin-top: 1rem;
     box-shadow:0 0 20px rgb(0,0,0,0.15);
 
 }
@@ -116,5 +120,9 @@ form * {
 
 .content-table tbody tr:nth-of-type(even) {
     background-color: #f3f3f3;
+}
+
+.btn-delete {
+    width: 1.5rem;
 }
 
