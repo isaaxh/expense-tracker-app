@@ -75,6 +75,10 @@ form * {
     margin-right: 5px
 }
 
+.date-container input {
+    cursor: pointer;
+}
+
 .amount-container input {
     width: 435px;
 }
